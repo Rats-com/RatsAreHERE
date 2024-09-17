@@ -14,3 +14,4 @@
 </head>
 </body>
 //ky is pretty far for begginers in rat keeping, i could probabky find some in kansas, at least kansas city
+// what is this? whys it a text file?
