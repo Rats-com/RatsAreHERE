@@ -13,7 +13,41 @@ div.homepage {
 	position: absolute;
 	top: 8px;
 	right: 16px;
+}
+.info-list {
+    list-style-type: none;
+    padding: 0;
+}
+.info-item {
+    position: relative;
+    padding: 10px;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.info-item:hover .tooltip {
+    display: block;
+    top: 100%;
+    left: 60%; 
+}
+
+h1 {text-align: center;}
+p {text-align: center;}
 
 
+
+footer.motor { 
+	text-align:center;
+	 }
+footer.contactre {
+	position: absolute;
 }
 style="width:150px;height:325px;
