@@ -8,10 +8,10 @@
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
-  postion: aboslute; right: -1150px;
-  postion: aboslute; top: -70px
+  postion: aboslute; right: 20px;
+  postion: aboslute; top: 20px
 }
 
 .dropdown-content {
