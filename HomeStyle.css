@@ -1,3 +1,15 @@
+.header {
+	color: white;
+	background: dimgray;
+	position: relative;
+top: -8px;
+margin:auto -8px;
+padding: 0;
+	a{
+		color:black;
+	}
+
+}
 .ratb {
 	width: 75px;
 	height: 75px;
@@ -14,13 +26,16 @@ div.homepage {
 	top: 8px;
 	right: 16px;
 }
+.gap {
+ padding:65px; }
 .info-list {
     list-style-type: none;
     padding: 0;
 }
 .info-item {
+	
     position: relative;
-    padding: 10px;
+    padding: 50px;
 }
 .tooltip {
     display: none;
@@ -35,7 +50,7 @@ div.homepage {
 
 .info-item:hover .tooltip {
     display: block;
-    top: 100%;
+    top: 10%;
     left: 60%; 
 }
 
@@ -43,11 +58,30 @@ h1 {text-align: center;}
 p {text-align: center;}
 
 
-
 footer.motor { 
-	text-align:center;
+	position: relative;
+	text-align: right;
+	bottom: 0;
+	padding: 10px;
+	a{
+		color: black;
 	 }
+	}
 footer.contactre {
 	position: absolute;
+	bottom: 0;
+	padding: 10px;
+
+	a{
+		color: black;
+	}
 }
-style="width:150px;height:325px;
+.footer { 
+
+background:dimgray;
+position: relative;
+bottom: -8px;
+margin:  -8px;
+padding: 0px;
+color:white;
+ }
