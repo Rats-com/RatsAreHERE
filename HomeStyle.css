@@ -1,0 +1,171 @@
+.header {
+	color: white;
+	background: dimgray;
+	position: relative;
+top: -8px;
+margin:auto -8px;
+padding: 0;
+	a{
+		color:black;
+	}
+
+}
+div.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: double;
+  cursor: pointer;
+}
+
+div.dropdown {
+  position: absolute;
+  display: inline-block;
+  postion: aboslute; right: 20px;
+  postion: aboslute; top: 20px
+}
+
+div.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: none;
+  right: 0;
+}
+
+div.dropdown-content a {
+  color: black;
+  padding: 6px 10px;
+  text-decoration: underline;
+  display: block;
+}
+
+div.dropdown-content a:hover {
+  background-color: burlywood;
+  display: grid;
+}
+
+div.dropdown:hover .dropdown-content {
+  display: grid;
+}
+
+div.dropdown:hover .dropbtn {
+  background-color: gray;
+}
+.ratb {
+	width: 75px;
+	height: 75px;
+	overflow: hidden;
+}
+.rat {
+	position: absolute;
+	top: 150px;
+	left: 50px;
+	width: 250px;
+	height: 250px;
+}
+.rat2 {
+	position: absolute;
+	top: 150px;
+	right: 50px;
+	width: 250px;
+	height: 250px;
+}
+
+.text { 
+	width: 400px;
+	word-wrap: break-word;
+	position:absolute;
+	top: 500px;
+	left: 50px;
+
+	 }
+.text2 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+div.bobby {
+	
+	text-align: center;
+}
+.homepage {
+	position: absolute;
+	top: 5px;
+	left: 1375px;
+
+}
+
+.gap {
+ padding:65px; }
+.info-list {
+    list-style-type: none;
+    padding: 0;
+}
+.info-item {
+	
+    position: relative;
+    padding: 50px;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    margin: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 10;
+    white-space: nowrap;
+}
+
+.info-item:hover .tooltip {
+    display: block;
+    top: 70%;
+    left: 55%; 
+}
+
+
+h1 {text-align: center;}
+p {text-align: center;}
+
+.footer { 
+
+background:dimgray;
+position: relative;
+bottom: -8px;
+margin:  -8px;
+padding: 60px;
+color:white;
+ }
+ footer.people{
+ 	position: absolute;
+ 	bottom: 0px;
+ 	right: 735px;
+ }
+ 
+footer.motor { 
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding: 10px;
+	a{
+		color: black;
+	 }
+	}
+footer.contactre {
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+
+	a{
+		color: black;
+	}
+
