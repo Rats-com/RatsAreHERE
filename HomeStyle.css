@@ -112,7 +112,7 @@ div.bobby {
 .info-item {
 	
     position: relative;
-    padding: 50px;
+    padding: 35px;
 }
 .tooltip {
     display: none;
@@ -162,6 +162,7 @@ footer.motor {
 	}
 footer.contactre {
 	position: absolute;
+	left: 5px;
 	bottom: 0;
 	padding: 10px;
 
